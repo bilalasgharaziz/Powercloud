@@ -1,0 +1,33 @@
+_id: req_d59ac1b928f5414fa24110070454a9a7
+type: Request
+parentId: fld_80d0f483af4c469b8cf4924dc7abd2f4
+modified: 1664979161372
+created: 1664979161372
+url: "{{cronstage}}/debug/cron/execute"
+name: edi_execute
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "identifier": "edi_execute",
+        "arguments": "-clientId 3",
+        "async": false,
+        "timeout": 3600
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664979161372
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

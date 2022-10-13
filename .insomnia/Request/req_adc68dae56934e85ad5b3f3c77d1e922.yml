@@ -1,0 +1,59 @@
+_id: req_adc68dae56934e85ad5b3f3c77d1e922
+type: Request
+parentId: fld_a374749111454d238d9a533f6dfdb32c
+modified: 1664954701301
+created: 1664954701301
+url: "{{stage}}/rest:client/{{applicationHash}}/createEdi"
+name: Regular_Read
+description: ""
+method: POST
+body:
+  params:
+    - value: electricity
+      name: energy
+      disabled: false
+    - value: "{{codeNumberTo}}"
+      name: codeNumberTo
+      disabled: false
+    - value: MSCONS
+      name: type
+      disabled: false
+    - value: 2.4a
+      name: version
+      disabled: false
+    - value: VL
+      name: applicationReference
+      disabled: false
+    - value: "{{messageReference}}"
+      name: messageReference
+      disabled: false
+    - value: "{{message}}"
+      name: message
+      disabled: false
+    - value: "0"
+      name: hasErrors
+      disabled: false
+    - value: "0"
+      name: gzipped
+      disabled: false
+    - value: "0"
+      name: base64Encoded
+      disabled: false
+    - value: "0"
+      name: base64Strict
+      disabled: false
+    - value: "{{codeNumberFrom}}"
+      name: codeNumberFrom
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664954701301
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

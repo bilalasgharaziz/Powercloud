@@ -1,0 +1,76 @@
+_id: req_16f338a0408442f185473e891202ed54
+type: Request
+parentId: fld_80d0f483af4c469b8cf4924dc7abd2f4
+modified: 1665040051520
+created: 1664979161431
+url: "{{stage}}/rest:client/{{applicationHash}}/createEdi"
+name: Counter_Change_Regular_Removal
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - value: electricity
+      name: energy
+      disabled: false
+      id: pair_b163e54e0ef64110bf0303cff3a9a380
+    - value: "{{codeNumberTo}}"
+      name: codeNumberTo
+      disabled: false
+      id: pair_42744710f0a4498a90f5d451d353ad31
+    - value: MSCONS
+      name: type
+      disabled: false
+      id: pair_49962f4064894a41aee0cf75dbe28c76
+    - value: 2.4a
+      name: version
+      disabled: false
+      id: pair_eace3091a32f4965af1bc5ae67dcdf8b
+    - value: VL
+      name: applicationReference
+      disabled: false
+      id: pair_e14782f9ab6f4ea0a7bc389cbc8d31a8
+    - value: "{{messageReference}}"
+      name: messageReference
+      disabled: false
+      id: pair_96cca14503454a13983c01b408e42d7f
+    - value: "{{message}}"
+      name: message
+      disabled: false
+      id: pair_d9f0497f13cf41519fed8ca71ab4ff19
+    - value: "0"
+      name: hasErrors
+      disabled: false
+      id: pair_2f793cf6c47d405687b3247476fdeeaf
+    - value: "0"
+      name: gzipped
+      disabled: false
+      id: pair_e8409ba23f414c908847f83c514fb908
+    - value: "0"
+      name: base64Encoded
+      disabled: false
+      id: pair_80ad1adbb140469abea3384c0eea403c
+    - value: "0"
+      name: base64Strict
+      disabled: false
+      id: pair_74ac198ad6c74ec4a0ee778cba128a06
+    - value: "{{codeNumberFrom}}"
+      name: codeNumberFrom
+      disabled: false
+      id: pair_b1ab5557f9cb40009e047ec09d2bb26d
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: client#GoldenClient
+  password: GoldenClient
+metaSortKey: -1664979161431
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

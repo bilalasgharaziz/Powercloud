@@ -1,0 +1,59 @@
+_id: req_a286313ea2ed4bc48c8086e8acadc789
+type: Request
+parentId: fld_a374749111454d238d9a533f6dfdb32c
+modified: 1664954701317
+created: 1664954701317
+url: "{{stage}}/rest:client/{{applicationHash}}/createEdi"
+name: UTILMD_Counter_Change_Regular
+description: ""
+method: POST
+body:
+  params:
+    - value: electricity
+      name: energy
+      disabled: false
+    - value: "{{codeNumberTo}}"
+      name: codeNumberTo
+      disabled: false
+    - value: UTILMD
+      name: type
+      disabled: false
+    - value: 5.2e
+      name: version
+      disabled: false
+    - value: ""
+      name: applicationReference
+      disabled: false
+    - value: "{{messageReference}}"
+      name: messageReference
+      disabled: false
+    - value: "{{message}}"
+      name: message
+      disabled: false
+    - value: "0"
+      name: hasErrors
+      disabled: false
+    - value: "0"
+      name: gzipped
+      disabled: false
+    - value: "0"
+      name: base64Encoded
+      disabled: false
+    - value: "0"
+      name: base64Strict
+      disabled: false
+    - value: "{{codeNumberFromUTILMD}}"
+      name: codeNumberFrom
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664954701317
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

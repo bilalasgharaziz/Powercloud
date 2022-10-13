@@ -1,0 +1,79 @@
+_id: req_f4706abd45ec401980e527a0d120c117
+type: Request
+parentId: fld_80d0f483af4c469b8cf4924dc7abd2f4
+modified: 1665040039996
+created: 1664979161435
+url: "{{stage}}/rest:client/{{applicationHash}}/createEdi"
+name: UTILMD_Counter_Change_Regular
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - value: electricity
+      name: energy
+      disabled: false
+      id: pair_efd485fe0889417fa0adf6d0933cbdbf
+    - value: "{{codeNumberTo}}"
+      name: codeNumberTo
+      disabled: false
+      id: pair_941fbc1d9d0048359bff6b9ff66cebf5
+    - value: UTILMD
+      name: type
+      disabled: false
+      id: pair_b890dda13cb748b8b2cff615843697f4
+    - value: 5.2e
+      name: version
+      disabled: false
+      id: pair_9579db77d439453288201fe374c9bf2c
+    - value: VL
+      name: applicationReference
+      disabled: false
+      id: pair_f724edc3409e4fe7bb8a60ab9347a18d
+    - value: "{{messageReference}}"
+      name: messageReference
+      disabled: false
+      id: pair_59ec23a8f21f4a498229a202a962710c
+    - value: "{{message}}"
+      name: message
+      disabled: false
+      id: pair_9b7dd3a951f2452d89d0130d2cb1b83a
+    - value: "0"
+      name: hasErrors
+      disabled: false
+      id: pair_e31b4d3ca6ac4ff6b91a6bc0e99a206f
+    - value: "0"
+      name: gzipped
+      disabled: false
+      id: pair_c7011e5e5b634eee97a171cdb051727d
+    - value: "0"
+      name: base64Encoded
+      disabled: false
+      id: pair_0222958167414e4e9ddd30809fa1d562
+    - value: "0"
+      name: base64Strict
+      disabled: false
+      id: pair_819fab525e3a4575bd0a14f6eb8ee9af
+    - value: "{{codeNumberFromUTILMD}}"
+      name: codeNumberFrom
+      disabled: false
+      id: pair_441f6fbb929b4ca2a546e6aa5fb88ca1
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_dcfc223f362e4b1f8a91bc590a1b75ea
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: client#GoldenClient
+  password: GoldenClient
+metaSortKey: -1664979161435
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

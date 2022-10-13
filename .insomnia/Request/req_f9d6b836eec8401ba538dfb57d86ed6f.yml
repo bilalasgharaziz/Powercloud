@@ -1,0 +1,33 @@
+_id: req_f9d6b836eec8401ba538dfb57d86ed6f
+type: Request
+parentId: fld_80d0f483af4c469b8cf4924dc7abd2f4
+modified: 1664979161369
+created: 1664979161369
+url: "{{cronstage}}/debug/cron/execute"
+name: gpke_mode_crmi
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "identifier": "gpke_mode_crmi",
+        "arguments": "-clientId 3",
+        "async": false,
+        "timeout": 3600
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1664979161369
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,64 @@
+_id: req_5b16225ba35447b99f61b7bff064ab2e
+type: Request
+parentId: fld_80d0f483af4c469b8cf4924dc7abd2f4
+modified: 1665040129716
+created: 1664979161395
+url: "{{stage}}/rest:client/{{applicationHash}}/createEdi"
+name: Deliver_End_Read
+description: ""
+method: POST
+body:
+  params:
+    - value: electricity
+      name: energy
+      disabled: false
+    - value: "{{codeNumberTo}}"
+      name: codeNumberTo
+      disabled: false
+    - value: MSCONS
+      name: type
+      disabled: false
+    - value: 2.4a
+      name: version
+      disabled: false
+    - value: VL
+      name: applicationReference
+      disabled: false
+    - value: "{{messageReference}}"
+      name: messageReference
+      disabled: false
+    - value: "{{message}}"
+      name: message
+      disabled: false
+    - value: "0"
+      name: hasErrors
+      disabled: false
+    - value: "0"
+      name: gzipped
+      disabled: false
+    - value: "0"
+      name: base64Encoded
+      disabled: false
+    - value: "0"
+      name: base64Strict
+      disabled: false
+    - value: "{{codeNumberFrom}}"
+      name: codeNumberFrom
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: client#GoldenClient
+  password: GoldenClient
+metaSortKey: -1664979161395
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

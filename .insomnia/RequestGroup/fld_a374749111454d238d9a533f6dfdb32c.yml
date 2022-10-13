@@ -1,0 +1,88 @@
+_id: fld_a374749111454d238d9a533f6dfdb32c
+type: RequestGroup
+parentId: fld_5c6c4f1fad1e4b828213ec643339230f
+modified: 1664978896493
+created: 1664954701326
+name: Power_MultiTariff
+description: ""
+environment:
+  OBIS0Power: 1-1?:1.8.1
+  OBIS1Power: 1-1?:1.8.2
+  MeLo: DE42295145496N6AN9UHVACVUEIHOAOOX
+  MaLo: "32430520829"
+  CounterNumber: "247643739"
+  ReadingDate: "202009010300"
+  Reading: "0"
+  newCounter: "452953924"
+  moveOutReadR0: "344.867"
+  moveOutReadR1: "229.6"
+  moveoutdate: "202011302300"
+  moveInRead: "0"
+  ContractId: ""
+  KonfigId: KonfigId1234
+  messageReference: XMGKBWPUONKUBJ
+  message: UNA:+.?
+    'UNB+UNOC:3+9905048000007:500+9900000000012:500+220920:1202+EHCUKIJTLDVUEY++VL'UNH+XMGKBWPUONKUBJ+MSCONS:D:04B:UN:2.4a'BGM+7+42460861675013059705309056840723673+9'DTM+137:202209201202?+00:303'RFF+Z30:55473978905041377782127274957440070'RFF+Z13:13017'NAD+MS+9905048000007::293'NAD+MR+9900000000012::293'UNS+D'NAD+DP'LOC+172+DE43537050780U5Y78R6WVPP5LGV7T4NP'RFF+AGK:KonfigId1234'RFF+MG:SMGW0000'LIN+1'PIA+5+1-1?:1.8.1:SRW'QTY+220:0'DTM+7:202109302200?+00:303'DTM+60:202109302200?+00:303'STS+Z33++Z83'LIN+2'PIA+5+1-1?:1.8.2:SRW'QTY+220:0'DTM+7:202109302200?+00:303'DTM+60:202109302200?+00:303'STS+Z33++Z83'UNT+20+XMGKBWPUONKUBJ'UNZ+1+EHCUKIJTLDVUEY'
+  Inbetweendate: "202103262300"
+  InbetweenReadingR0: "779.41"
+  InbetweenReadingR1: "516.94"
+  TurnusDate: "202108312200"
+  TurnusReadingR0: "1596.129"
+  TurnusReadingR1: "1064.086"
+  SMGWDate: "202109302200"
+  SMGW: SMGW0000
+  newCounter1: SMGW1234
+  Inbetweendate1: "202202212300"
+  TurnusDate1: "202208312200"
+  codeNumberFrom: "9905048000007"
+  codeNumberFromUTILMD: "9905048000007"
+  moveOutReadS0: "2400"
+  moveOutReadS1: "1600"
+  InbetweenReadingS0: "2700"
+  InbetweenReadingS1: "1800"
+  TurnusReadingS0: "3600"
+  TurnusReadingS1: "2400"
+  EndDeliveryDate: "202209302200"
+  EndDeliveryReading0: "3650"
+  EndDeliveryReading1: "2450"
+environmentPropertyOrder:
+  "&":
+    - OBIS0Power
+    - OBIS1Power
+    - MeLo
+    - MaLo
+    - CounterNumber
+    - ReadingDate
+    - Reading
+    - newCounter
+    - moveOutReadR0
+    - moveOutReadR1
+    - moveoutdate
+    - moveInRead
+    - ContractId
+    - KonfigId
+    - messageReference
+    - message
+    - Inbetweendate
+    - InbetweenReadingR0
+    - InbetweenReadingR1
+    - TurnusDate
+    - TurnusReadingR0
+    - TurnusReadingR1
+    - SMGWDate
+    - SMGW
+    - newCounter1
+    - Inbetweendate1
+    - TurnusDate1
+    - codeNumberFrom
+    - codeNumberFromUTILMD
+    - moveOutReadS0
+    - moveOutReadS1
+    - InbetweenReadingS0
+    - InbetweenReadingS1
+    - TurnusReadingS0
+    - TurnusReadingS1
+    - EndDeliveryDate
+    - EndDeliveryReading0
+    - EndDeliveryReading1
+metaSortKey: -1664882200853

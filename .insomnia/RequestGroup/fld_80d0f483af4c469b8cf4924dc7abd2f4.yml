@@ -1,0 +1,76 @@
+_id: fld_80d0f483af4c469b8cf4924dc7abd2f4
+type: RequestGroup
+parentId: fld_5c6c4f1fad1e4b828213ec643339230f
+modified: 1665567240335
+created: 1664979161441
+name: Power_Single_Tariff
+description: ""
+environment:
+  OBIS0Power: 1-1?:1.8.0
+  MeLo: DE42295145496N6AN9UHVACVUEIHOAOOX
+  MaLo: "32430520829"
+  CounterNumber: "247643739"
+  ReadingDate: "202009010300"
+  Reading: "0"
+  calorificValue: "10"
+  conditionsValue: "1"
+  newCounter: "452953924"
+  moveOutRead: "574.467"
+  moveOutRead1: "3500"
+  moveoutdate: "202011302300"
+  moveInRead: "0"
+  ContractId: "54"
+  KonfigId: KonfigId1234
+  messageReference: GGCNTGWAXVUDDV
+  message: UNA:+.?
+    'UNB+UNOC:3+9905048000007:500+9900000000012:500+220921:1554+AOZHGOOFFKXIGR++VL'UNH+GGCNTGWAXVUDDV+MSCONS:D:04B:UN:2.4a'BGM+7+38982427093484891409861731977423448+9'DTM+137:202209211554?+00:303'RFF+Z13:13017'NAD+MS+9905048000007::293'NAD+MR+9900000000012::293'UNS+D'NAD+DP'LOC+172+DE79684544507P6Q1EXNTU7GZ5ZFETGLN'RFF+MG:452953924'LIN+1'PIA+5+1-1?:1.8.0:SRW'QTY+220:2660.216'DTM+9:202108312200?+00:303'DTM+7:202108312200?+00:303'STS+Z33++Z86'UNT+19+GGCNTGWAXVUDDV'UNZ+1+AOZHGOOFFKXIGR'
+  Inbetweendate: "202103262300"
+  InbetweenReading: "1292.350"
+  TurnusDate: "202108312200"
+  TurnusReading: "2660.216"
+  SMGWDate: "202109302200"
+  SMGW: SMGW0000
+  newCounter1: SMGW1234
+  Inbetweendate1: "202202212300"
+  TurnusDate1: "202208312200"
+  codeNumberFrom: "9905048000007"
+  codeNumberFromUTILMD: "9905048000007"
+  TurnusReading1: "6000"
+  InbetweenReading1: "4000"
+  EndDeliveryDate: "202209302200"
+  EndDeliveryReading: "6100"
+environmentPropertyOrder:
+  "&":
+    - OBIS0Power
+    - MeLo
+    - MaLo
+    - CounterNumber
+    - ReadingDate
+    - Reading
+    - calorificValue
+    - conditionsValue
+    - newCounter
+    - moveOutRead
+    - moveOutRead1
+    - moveoutdate
+    - moveInRead
+    - ContractId
+    - KonfigId
+    - messageReference
+    - message
+    - Inbetweendate
+    - InbetweenReading
+    - TurnusDate
+    - TurnusReading
+    - SMGWDate
+    - SMGW
+    - newCounter1
+    - Inbetweendate1
+    - TurnusDate1
+    - codeNumberFrom
+    - codeNumberFromUTILMD
+    - TurnusReading1
+    - InbetweenReading1
+    - EndDeliveryDate
+    - EndDeliveryReading
+metaSortKey: -1664882200803

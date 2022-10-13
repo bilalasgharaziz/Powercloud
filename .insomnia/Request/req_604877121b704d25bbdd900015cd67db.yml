@@ -1,0 +1,102 @@
+_id: req_604877121b704d25bbdd900015cd67db
+type: Request
+parentId: fld_80d0f483af4c469b8cf4924dc7abd2f4
+modified: 1665653650458
+created: 1664979161437
+url: "{{stage}}/rest:client/{{applicationHash}}/createEdi"
+name: Delivery_Start_Read
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - value: electricity
+      name: energy
+      disabled: false
+      id: pair_4f058db696df4885b9182bd9038a7d50
+    - value: "{{codeNumberTo}}"
+      name: codeNumberTo
+      disabled: false
+      id: pair_f208ac9cdcec49ad956b10bae6dd6768
+    - value: MSCONS
+      name: type
+      disabled: false
+      id: pair_957704376a77470dbc1a181c550a9626
+    - value: 2.4a
+      name: version
+      disabled: false
+      id: pair_b34ffe50d9824903b1666601771486e2
+    - value: VL
+      name: applicationReference
+      disabled: false
+      id: pair_91a0d31e1dcb4fe39a34598781b6b707
+    - value: "{{messageReference}}"
+      name: messageReference
+      disabled: false
+      id: pair_0cdb4ccaed4a4f779b6a4a7f2fba1e25
+    - value: "{{message}}"
+      name: message
+      disabled: false
+      id: pair_061d85c4d1c24502b8931863269f4e2e
+      type: text
+      multiline: true
+    - value: "0"
+      name: hasErrors
+      disabled: false
+      id: pair_97428e6fd348402e83c3b0a1eec89b3b
+    - value: "0"
+      name: gzipped
+      disabled: false
+      id: pair_44ee734e0c124f40a2f75785497d5f8a
+    - value: "0"
+      name: base64Encoded
+      disabled: false
+      id: pair_031433ce1c7c4e8096546a41d4ed0405
+    - value: "0"
+      name: base64Strict
+      disabled: false
+      id: pair_8af9113681104ae3be76207457d63746
+    - value: "{{codeNumberFrom}}"
+      name: codeNumberFrom
+      disabled: false
+      id: pair_4c6342dd133b4e98a485b4dd93a13322
+    - id: pair_d41578f3bc354cd59d9d52d448112881
+      name: DocumentNumber
+      value: "{% now 'custom', 'MMDYHMM' %}"
+      description: ""
+      type: text
+      multiline: false
+      disabled: false
+    - id: pair_664782b587754193839f2a467e4da384
+      name: dataInterchangeReferenc
+      value: "{% randomnumber 12, 35, NaN, 0 %}"
+      description: ""
+    - id: pair_c9113ce56d7846d79d9bccacd5466eb3
+      name: Random Variable
+      value: "{% randomString 35, 1 %}"
+      description: ""
+    - id: pair_ede2c92931144c5fa98add9cda66ebfe
+      name: ""
+      value: ""
+      description: ""
+      type: text
+      multiline: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_d4f9bdb318d64ee5ad1964a01479f08b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: client#GoldenClient
+  password: GoldenClient
+metaSortKey: -1664979161437
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
