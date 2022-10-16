@@ -1,9 +1,9 @@
 _id: req_604877121b704d25bbdd900015cd67db
 type: Request
 parentId: fld_80d0f483af4c469b8cf4924dc7abd2f4
-modified: 1665653929797
+modified: 1665944776777
 created: 1664979161437
-url: "{{stage}}/rest:client/{{applicationHash}}/createEdi"
+url: "{{stage}}/rest:client/{{applicationHash}}/createEdi@220003000-82"
 name: Delivery_Start_Read
 description: ""
 method: POST
@@ -39,7 +39,7 @@ body:
       disabled: false
       id: pair_061d85c4d1c24502b8931863269f4e2e
       type: text
-      multiline: true
+      multiline: false
     - value: "0"
       name: hasErrors
       disabled: false

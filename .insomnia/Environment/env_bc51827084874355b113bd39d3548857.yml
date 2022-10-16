@@ -1,0 +1,56 @@
+_id: env_bc51827084874355b113bd39d3548857
+type: Environment
+parentId: env_42ac922d62924189c41805ef077ae835c45096e4
+modified: 1665944776343
+created: 1665943390664
+name: Feature Branch (New)
+data:
+  stage: https://crmi-pr-57325.dev.power.cloud
+  cronstage: https://crmi-pr-57325.dev.power.cloud
+  user: Client#GoldenClient
+  password: GoldenClient
+  applicationHash: 7e1dbfa91ca5c4d861288dad6ef282dd
+  codeNumberToGas: "9800000000012"
+  codeNumberTo: "9900000000012"
+  dataInterchangeReference: "{% randomString 35, 1 %}"
+  messageReference: "{% randomString 35, 1 %}"
+  documentNumber: "{% randomString 35, 1 %}"
+  createdDate: "{% now 'custom', '' %}"
+  MaLo: ""
+  MeLo: ""
+  Counter: ""
+  Register1: 1-1?:1.8.1
+  Register2: 1-1?:1.8.2
+  DeliveryStartDate: "202109302200"
+  DeliveryStartR1: "0"
+  DeliveryStartR2: "0"
+  AccountingCycleDate: "202209292200"
+  AccountingCycleR1: "2200"
+  AccountingCycleR2: "1300"
+dataPropertyOrder:
+  "&":
+    - stage
+    - cronstage
+    - user
+    - password
+    - applicationHash
+    - codeNumberToGas
+    - codeNumberTo
+    - dataInterchangeReference
+    - messageReference
+    - documentNumber
+    - createdDate
+    - MaLo
+    - MeLo
+    - Counter
+    - Register1
+    - Register2
+    - DeliveryStartDate
+    - DeliveryStartR1
+    - DeliveryStartR2
+    - AccountingCycleDate
+    - AccountingCycleR1
+    - AccountingCycleR2
+color: null
+isPrivate: false
+metaSortKey: 1664886581430
